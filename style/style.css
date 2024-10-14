@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+ul,
+ol,
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-items li a {
+  gap: 30px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar,
+.logo li a {
+  display: flex;
+  color: inherit;
+  justify-content: space-between;
+}
+
+.navbar-items {
+  align-items: center;
+
+  top: 37px;
+  left: 433px;
+  gap: 71px;
+  font-size: small;
+  color: #000000;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: 900;
+  margin-left: 87px;
+}
+
+.contact {
+  font-weight: lighter;
+  margin-left: 50px;
+  margin-right: 85px;
+  align-items: center;
+  border: 3px solid green;
+  background-color: #057509;
+  color: #fff;
+}
+
+.digital {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 87px;
+}
+
+.mission {
+  font-family: sans-serif;
+  font-size: small;
+  width: 578px;
+  height: 58px;
+  margin-top: 15px;
+  margin-left: 87px;
+}
+
+.header {
+  background-color: aliceblue;
+}
+
+.button {
+  width: 140px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 87px;
+  border: 2px solid #057509;
+  background-color: #057509;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.developers {
+  align-content: flex-end;
+  width: 500px;
+  height: 400px;
+  margin-left: 560px;
+}
